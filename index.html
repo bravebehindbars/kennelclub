@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <title>MKIC</title>
+</head>
+
+<body>
+    <div class="main_container">
+
+        <nav>
+            <a class="page" href="index.html">Home</a>
+            <a href="application.html">Application</a>
+            <a href="questionnaire.html">Questionnaire</a>
+            <a href="updates.html">Updates</a>
+        </nav>
+    </div>
+
+    <div id="main_container">
+        <div id="header_container">
+
+            <div id="slash">
+                <p>
+                    <button type="button" class="About" onclick="toggleAbout()">About</button>
+                    <button type="button" class="About" onclick="toggleContact()">Contact</button>
+                    <button type="button" class="About" onclick="toggleMembership()">Membership
+                    </button>
+                    <button type="button" class="About" onclick="toggleProduct()">Product</button>
+                    <button type="button" class="About" onclick="toggleServices()">Service</button>
+                </p>
+            </div>
+
+            <div id="hide">
+                <div id="about">
+                    <p>Our goal is to make a perfect match for all our clients and cannines.</p>
+                </div>
+                <div id="contact">
+                    <p>You can reach us by phone: (123-456-7890) from 9am-5pm
+                        <br>
+                        mail: MKIC 1984 Puppy Drive. Woof,Ma. 02569,
+                        <br>
+                        e-mail:mkic@verizon.net.
+                        <br>
+                        or visiting out site: MKIC.org.
+                    </p>
+                </div>
+                <div id="membership">
+                    <p>We offer coupons for puppy packages.</p>
+                </div>
+                <div id="product">
+                    <p>We have contracts with all major dog supplies distrubitors ensuring better prices for whatever
+                        needs your dog has. </p>
+                </div>
+                <div id="services">
+                    <p>Our services covers all things dogs (ie, training, vets, food,etc.).</p>
+                </div>
+
+            </div>
+
+
+            <script src="final2.js"></script>
+
+            <div class="statement">
+                <div class="slider">
+                    <div class='btn'></div>
+                    <div class='btn'></div>
+                    <div class='btn'></div>
+                </div>
+            </div>
+
+            <div id="main">
+                <div id="slider" class="image-slider">
+                    <img id='slider-img' src="final-pics/boy.png" alt="perfect match">
+                </div>
+            </div>
+
+            <h1>Massachusetts Institute Kennel Club</h1>
+            <p id="mission"> MISSION STATEMENT: <br><b>TO PROVIDE A POWERFUL TOOL TO HELP AUTISTIC YOUTHS WITH THEIR
+                    SOCIALIZATION SKILLS!</b></p>
+
+
+
+            <div class="box">
+                <p> At Massachusetts Institute Kennel Club our experts focus on making the ideal matches for our clients
+                    and canines.At MIKC we are commited to giving back to our youths who are diagnosed with autism
+                    spectrum disorders. This is a cause near and dear to our founding members. For the last two decades,
+                    MIKC has committted to donating ten canines per year to families with a child who suffers from (ASD)
+                    and to offer our services free of charge to these families. We provide quality services and
+                    specialize in specific breeds of puppies who will offer the best results with (ASD). Massachusetts
+                    Institute Kennel Club provides in-house veteranian services, groomers, and personal trainers who are
+                    knowledgable in the specific breeds we offer. Our goal is to provide every service necessary to
+                    ensure a one of a kind experience between you, MIKC, and your dog. Our ultimate goal is to help ease
+                    any social anxiety,social skills defecits, and social and emotional communication that impedes
+                    youths with ASD. Our team of experts have found great results with different breeds depending on
+                    where in the spectrum the child may fall on.
+                </p>
+            </div>
+
+
+            <p class="breeds">HERE ARE THE BREEDS WE SPECIALIZE ON:</p>
+            <div id="content-box">
+                <h2>
+                    <div class="element">
+                        <p>Small size breeds</p>
+                        <ul><input type="radio" id="shih" onclick="toggleShih()" />
+                            shih-tzu</ul>
+                        <div id="hideshih">
+                            <img src="final-pics/shih_tzu_white_background.jpg">
+                        </div>
+                        <ul><input type="radio" id="chih" onclick="toggleChih()" />
+                            chihuahua</ul>
+                        <div id="hidechih">
+                            <img src="final-pics/chihuahua_black_background.jpeg">
+                        </div>
+                        <ul><input type="radio" id="papi" onclick="togglePapi()" />
+                            papillon</ul>
+                        <div id="hidepapi">
+                            <img src="final-pics/papillon_white_background.jpg">
+                        </div>
+                    </div>
+                </h2>
+
+
+                <h2>
+                    <div class="element">
+                        <p> Medium size breeds</p>
+                        <ul><input type="radio" id="bull" onclick="toggleBull()" />
+                            bulldog</ul>
+                        <div id="hidebull">
+                            <img src="final-pics/bulldog_white_background.jpg">
+                        </div>
+                        <ul><input type="radio" id="coll" onclick="toggleColl()" />
+                            collie</ul>
+                        <div id="hidecoll">
+                            <img src="final-pics/collie_black_background.jpg">
+                        </div>
+                        <ul><input type="radio" id="shar" onclick="toggleShar()" />
+                            sharpei</ul>
+                        <div id="hideshar">
+                            <img src="final-pics/shar_pei_white_background.jpg">
+                        </div>
+
+                    </div>
+                </h2>
+
+                <h2>
+                    <div class="element">
+                        <p>Large size breeds</p>
+                        <ul><input type="radio" id="burm" onclick="toggleBurm()" />
+                            burmese</ul>
+                        <div id="hideburm">
+                            <img src="final-pics/burmese_mountain_dog_black_background.jpg">
+                        </div>
+                        <ul><input type="radio" id="lab" onclick="toggleLab()" />
+                            labrador</ul>
+                        <div id="hidelab">
+                            <img src="final-pics/lab_black_background.jpg">
+                        </div>
+                        <ul><input type="radio" id="pit" onclick="togglePit()" />
+                            pitbull</ul>
+                        <div id="hidepit">
+                            <img src="final-pics/pit_bull_black_background.jpg">
+                        </div>
+                </h2>
+            </div>
+
+
+
+            <section id="service" class="section-down">
+                <div class="text">
+                    <p class="textsz">Spectrum</p>
+                    <p class="sectionSubTag text-sm">Understanding where your child falls on the spectrum is essential
+                        in understanding your child's needs, strengths, weaknesses, abilities and disabilities. We
+                        encourage you speaking to experts who have a broad knowledge on the subject to ensure that your
+                        child may get the canine that will best serve him or her. In the event that your child rather
+                        enjoys being alone most time, you can take comfort that he or she will have a silent companion
+                        next to him always, whose sole instinct is to comfort them.</p>
+
+                </div>
+
+                <div class="spectrum">
+                    <img class="imgFluid" src="final-pics/sunset3.png" alt="logo Image">
+                </div>
+            </section>
+
+
+            <div class="hr-end">
+                <hr>
+            </div>
+
+            <section class="section-down reverse-order">
+                <div class="text">
+                    <p class="textsz">Our Vision Statement</p>
+                    <p class="sectionSubTag text-sm">Throughout history, we have witnessed dogs playing a key role in
+                        human lives in terms of companinonship but also in working side by side with humans to hunt
+                        game, herd sheep, and push sleds. Canines are most happy when they serve their master so what
+                        better way to put their unique skills to use and in the process bring betterment to lives of
+                        youth's that are struggling with physical and emotional socialization. </p>
+                </div>
+
+
+                <div class="spectrum">
+                    <img class="imgFluid" src="final-pics/sunset4.png" alt="logo Image">
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="section-down">
+                <div class="text">
+                    <p class="textsz">Our Slogan--"Let Us Learn Together"</p>
+                    <p class="sectionSubTag text-sm">Together we an make a change that will not only help families and
+                        their children have a better life, but also spread knowledge and understanding of the brilliance
+                        those afflicted with (ASD) can achieve with a powerful tool such as a pet companion. Let us all
+                        work together to embrace hope, understanding, and assistance to (ASD). </p>
+                </div>
+
+
+                <div class="spectrum">
+                    <img class="imgFluid" src="final-pics/sunset.png" alt="logo Image">
+                </div>
+            </section>
+
+            <h3>"Parents should consider their children's sensitivities carefully when choosing a pet to ensure a good
+                match, Dr.Carlisle emphasizes. 'Bringing a dog into any family is a big step, but for families of
+                children with autism, getting a dog should be a decision that's taken vey seriously,' she says. For
+                example, a child who is easily agitated or has sensitivities to noise may have great difficulty with an
+                extremely active dog or one that tends to bark."
+                By Autism Speaks Inc.
+                <br>
+            </h3>
+
+
+            <li id="link"> Click on the link for more information </li>
+            <a href="final-pics/finals.pdf"> The Role and Benefits of Autism Service Dogs</a>
+
+
+
+        </div>
+    </div>
+    <script src="final.js"></script>
+    </div>
+</body>
+
+</html>

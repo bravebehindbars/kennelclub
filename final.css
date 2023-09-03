@@ -1,0 +1,179 @@
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 28pt;
+	font-style:"fantasy",papyrus;
+}
+a{
+	padding: 0px 40px 0px 40px;
+	color: #00ff00;
+}
+
+nav a:hover{
+  color: #8080ff;
+}
+
+.page{
+  color: #009900;
+}
+
+#mission{
+	font-style:"fantasy",papyrus ;
+	font-size: 28pt;
+	text-shadow: 10px 10px 10px #7fff00;
+}
+
+h1{
+	color: #00ff00;
+	font-size: 40pt;
+	font-weight:900 ;
+	font-family: "fantasy",papyrus;
+	text-align: center;
+	padding-bottom: 30px;
+	text-shadow: 8px 8px 10px black;
+}
+.statement p{
+	padding-top: 80px;
+	text-align: center;
+	color: white;
+	font-size: 24pt;
+  font-weight: 900;
+}
+
+#slash{
+	display: flex;
+	flex-wrap:wrap; 
+	justify-content: center;
+}
+.About{
+	color: darkgreen;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 0px 20px 30px 0px;
+}
+
+p{
+	color:#00ff00;
+	font-family:"fantasy",papyrus;
+	font-style: italic; 
+	font-size: 20pt;
+	padding-right: 50px;
+	text-align: center;
+}
+.breeds{
+	font-family:"fantasy",papyrus; 
+	font-size: 24pt;
+}
+body{
+	background-image: url("final-pics/star.png");
+	background-size: cover;
+}
+.box p{
+font-size: xx-large;
+}
+#content-box{
+	display: flex;
+	flex-wrap: nonwrap;
+	flex-direction: row;
+	justify-content: center;
+}
+.element ul{
+	width: 300px;
+	height: ;
+	color: #00ff00;
+	font-size: 20px;
+	margin: 40px;
+	padding: 20px;
+	background-color: ;
+	text-align: center;
+	border-color: black;
+-moz-box-shadow: 5px 5px 5px 5px #000;
+-webkit-box-shadow: 5px 5px 5px 5px #000;
+box-shadow: 5px 5px 5px 5px #000; 
+}
+
+
+#slider-img{
+	height: 450px;
+	width: 650px;
+	border-radius: 100%;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+}
+
+#header_container{
+	justify-content: center;
+}
+
+#hide p{
+	text-align: center;
+	color: orange;
+}
+.element img{
+height: 100px;
+width: 100px;
+justify-items: center;
+border-color: black;
+-moz-box-shadow: 5px 5px 5px 5px #000;
+-webkit-box-shadow: 5px 5px 5px 5px #000;
+box-shadow: 5px 5px 5px 5px #000;                       
+}
+
+h3{
+	color:red ;
+	font-style: italic;
+	font-size: 18pt;
+}
+
+.section-down {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.reverse-order {
+  flex-direction: row-reverse;
+}
+
+.spectrum {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.imgFluid {
+  height: 300px;
+  width: 300px;
+  border: 0;
+  box-shadow: 0 0 12px grey;
+  border-radius: 150px;
+}
+
+.hr-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+hr {
+  width: 50%;
+}
+.text{
+	text-shadow: 5px 5px 5px black;
+}
+.textsz{
+	font-size: 24pt;
+}
+.element:hover{
+  color: red;
+}
+#link{
+  color: white;
+  font-size: 12pt;
+  font-style: italic;
+}
